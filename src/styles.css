@@ -1,0 +1,13 @@
+
+.text-d {
+  text-decoration: none;
+}
+
+img.preCss {
+  transform: rotate(180deg);
+}
+
+div.ex2 {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}

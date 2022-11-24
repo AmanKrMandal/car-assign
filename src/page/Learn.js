@@ -1,4 +1,4 @@
-import img8 from "../images/s60_recharge.jpg";
+// import img8 from "../images/s60_recharge.jpg";
 
 function Learn() {
   return (

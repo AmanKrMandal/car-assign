@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { useState } from "react";
+// import { Routes, Route } from "react-router-dom";
 import Card from "../components/Card";
 import img1 from "../images/xc90_recharge.jpg";
 import img2 from "../images/xc60_recharge.jpg";
@@ -11,7 +11,7 @@ import img7 from "../images/s90_recharge.jpg";
 import img8 from "../images/s60_recharge.jpg";
 import SVG1 from "../docs/chevron-circled.svg";
 export default function App() {
-  const [data, setData] = useState([
+  const [data] = useState([
     {
       id: "1",
       modelName: "XC90 Recharge",
